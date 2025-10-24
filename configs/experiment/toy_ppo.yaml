@@ -1,0 +1,7 @@
+experiment: toy_ppo
+algo: ppo
+episodes: 5
+horizon: 52
+seed: 123
+device: cpu
+lr: 0.0003

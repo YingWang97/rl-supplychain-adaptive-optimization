@@ -1,0 +1,9 @@
+experiment: toy_dqn
+algo: dqn
+episodes: 10
+horizon: 52
+seed: 123
+device: cpu
+lr: 0.001
+batch: 64
+k: 9

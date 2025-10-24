@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rlsupplychain"
+version = "0.1.0"
+description = "Deep RL for adaptive supply chain optimization under uncertain demand"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.22",
+    "pandas>=1.4",
+    "torch>=2.0",
+    "gymnasium>=0.29",
+    "matplotlib>=3.6",
+    "PyYAML>=6.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "flake8>=6.0", "isort>=5.10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

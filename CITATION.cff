@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: RL-SupplyChain-Adaptive-Optimization
+authors:
+  - family-names: YourSurname
+    given-names: YourName
+version: "0.1.0"
+date-released: "2025-10-23"
